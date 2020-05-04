@@ -14,10 +14,7 @@ body {
 }
 
 #header-text {
-    display: block;
     color: #eaeaea;
-    font-size: 60px;
-    font-weight: 300;
 }
 
 div.header-wrapper {
