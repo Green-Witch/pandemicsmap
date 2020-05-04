@@ -1,5 +1,12 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  link(rel="stylesheet" type="text/css" href="public/stylesheets/style.css")
+  link(href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400&display=swap" rel="stylesheet")
+      
+  div(class="header-wrapper")
+    div(class="header")
+      img(id = "virus-icon" src="./public/images/coronavirus_icon.png")
+      p(id = "header-text") Pandemics Map
+      p(id = "header-brief") Get the lastest updates on the novel coronavirus Covid19 blah blah
+

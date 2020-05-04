@@ -1,9 +1,30 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: #30363a;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-a {
-  color: #00B7FF;
+body {
+  background-color: #30363a;
+    font: 14px 'Muli', 'sans-serif';
+}
+
+#virus-icon {
+    display: inline;
+    margin: 2% auto
+}
+
+#header-text {
+    display: block;
+    color: #eaeaea;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+div.header-wrapper {
+    text-align: center;
+}
+
+div.header {
+    display: block;
+    margin: 0% auto
 }
