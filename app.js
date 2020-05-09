@@ -6,6 +6,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var mapRouter = require('./routes/map');
+var graphqlRouter = require('./routes/graphql')
 
 var app = express();
 
@@ -21,6 +22,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/map', mapRouter);
+app.use('/graphql', graphqlRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
