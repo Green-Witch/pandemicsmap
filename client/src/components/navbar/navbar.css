@@ -1,0 +1,11 @@
+nav {
+  padding: 10px;
+  background-color: #eee;
+  color: #333;
+  text-align: center;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
